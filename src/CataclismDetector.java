@@ -9,6 +9,7 @@ public class CataclismDetector extends NotificationManager {
     manager.setCataclism(new Cataclism());
     manager.notifyAllObservers();
 
+
   }
 
 }
