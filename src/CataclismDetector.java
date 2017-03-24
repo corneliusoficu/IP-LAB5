@@ -1,5 +1,3 @@
-import java.util.Vector;
-
 public class CataclismDetector extends NotificationManager {
 
   public static void main(String[] args) {
@@ -9,6 +7,7 @@ public class CataclismDetector extends NotificationManager {
     manager.attach(obs1);
     manager.attach(obs2);
     manager.setCataclism(new Cataclism());
+    manager.notifyAllObservers();
 
   }
 
