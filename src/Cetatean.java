@@ -2,7 +2,7 @@ public class Cetatean extends Observer {
 
   public String mail;
 
-  public void notify() {
+  public void notifyMe() {
   }
 
 }

@@ -1,13 +1,15 @@
 import java.util.Vector;
 
-public class Observer {
+public abstract class Observer {
 
-  public NotificationManager Subject;
+    private NotificationManager Subject;
+    public abstract void notifyMe();
 
-    public Vector  myNotificationManager;
-    public Vector  myNotificationManager;
-
-  public void notify() {
+  public NotificationManager getSubject() {
+    return Subject;
   }
 
+  public void setSubject(NotificationManager subject) {
+    Subject = subject;
+  }
 }
