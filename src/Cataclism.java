@@ -7,6 +7,7 @@ public class Cataclism {
   private int urgency;
 
   public Cataclism() {
+    description="Cutremur de 7.7 grade in Vrancea";
   }
 
   public String getDescription() {

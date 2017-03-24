@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Vector;
 
 public class NotificationManager {
 
@@ -26,7 +25,7 @@ public class NotificationManager {
 
   public void notifyAllObservers() {
     for(Observer observer : observers){
-      observer.notify();
+      observer.notifyMe();
     }
   }
 
